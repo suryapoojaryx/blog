@@ -2,7 +2,7 @@
 
 <br>
 
-
+@include('_posts-request')
 @foreach ($posts as $post )
 
 <h4> {{ $post->title }} </h4>
